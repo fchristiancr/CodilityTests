@@ -1,19 +1,21 @@
 //https://app.codility.com/demo/results/trainingHYMT7M-AGF/
-#include <stdio.h>
 
 
-    
- 
-/* Driver function to test above function */
-int main()
-{
+int solution(int A[], int N) {
     int result = 0;
-    int A [] = {9,3,9,3,9,7,9};
-    int N = 7;
-
-    for (int i = 0; i<N; i++){
+    
+	/*Checking that N is withing Range*/
+    if(N>0 && N<1000000){
+        for(int i = 0; i < N; i++){
         result = result ^ A[i];
     }
 
-    printf("Odd: %d",result);
+    return result;
+	
+    }
+	/*Return error if out of range*/
+    else{
+        return -1;
+    }
+    
 }
