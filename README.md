@@ -1,3 +1,5 @@
+Disclaimer: I don't own the rights of the material below. This is just to aid other developers in finding another solution to the Tests Materials in Codility. 
+
 A non-empty array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.
 
 For example, in array A such that:
@@ -27,4 +29,6 @@ Write an efficient algorithm for the following assumptions:
 N is an odd integer within the range [1..1,000,000];
 each element of array A is an integer within the range [1..1,000,000,000];
 all but one of the values in A occur an even number of times.
-Copyright 2009–2021 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
+
+
+Copyright 2009–2021 by Codility Limited. All Rights Reserved. 
